@@ -1,7 +1,7 @@
 class Konnichiwa
-  def self.hi(language = "english")
+  def self.hi(language = :english)
     translator = Translator.new(language)
-    puts translator.hi
+    translator.hi
   end
 end
 

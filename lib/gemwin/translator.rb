@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class Konnichiwa::Translator
   def initialize(language)
     @language = language
@@ -7,8 +8,10 @@ class Konnichiwa::Translator
     case @language
     when "english"
       "Konnichiwa bitches."
+    when "japanese"
+      "こんにちはこのあま"
     else
-      "今日このあま".force_encoding("BINARY")
+      "no translation ;_;"
     end
   end
 end
