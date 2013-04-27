@@ -11,7 +11,7 @@ class Konnichiwa::Translator
     when "japanese"
       "こんにちはこのあま"
     else
-      "no translation ;_;"
+      "Sorry braj, I only do 'english' and 'japanese'."
     end
   end
 end
