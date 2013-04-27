@@ -1,5 +1,8 @@
 class Konnichiwa
-  def self.hi
-    puts "Konnichiwa bitches."
+  def self.hi(language = "english")
+    translator = Translator.new(language)
+    puts translator.hi
   end
 end
+
+require 'gemwin/translator'
