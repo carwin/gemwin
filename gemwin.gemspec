@@ -2,6 +2,7 @@ Gem::Specification.new do |s|
   require         'rake'
   s.name        = 'gemwin'
   s.version     = '0.0.0'
+  s.executables << 'gemwin'
   s.date        = '2013-04-27'
   s.summary     = "A greeting."
   s.description = "A simple hello world gem"

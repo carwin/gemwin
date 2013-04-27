@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'gemwin'
+puts Konnichiwa.hi(ARGV[0])
