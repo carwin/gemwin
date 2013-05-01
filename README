@@ -12,9 +12,10 @@ argument. Here's an example:
 $ ./bin/gemwin spanish
 ```
 
-Gemwin knows four languages!
+Gemwin knows five languages!
 
   * english
   * japanese
   * pirate
   * dudebro
+  * wu-tang

@@ -7,13 +7,15 @@ class Hello::Translator
   def in
     case @language
     when "english"
-      "Konnichiwa bitches."
+      "Hello my fine friend."
     when "japanese"
       "こんにちはこのあま"
     when "pirate"
       "Ahoy thar matey!"
     when "dudebro"
       "Sup yo."
+    when "wu-tang"
+      "Konnichiwa bitches."
     else
       "Sorry, I don't know that language."
     end
