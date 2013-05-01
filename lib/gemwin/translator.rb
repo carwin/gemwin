@@ -1,5 +1,5 @@
 # encoding: UTF-8
-class Konnichiwa::Translator
+class Hello::Translator
   def initialize(language)
     @language = language
   end
@@ -10,6 +10,10 @@ class Konnichiwa::Translator
       "Konnichiwa bitches."
     when "japanese"
       "こんにちはこのあま"
+    when "pirate"
+      "Ahoy thar matey!"
+    when "dudebro"
+      "Sup yo."
     else
       "Sorry braj, I only do 'english' and 'japanese'."
     end
