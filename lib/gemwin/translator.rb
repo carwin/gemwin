@@ -4,7 +4,7 @@ class Hello::Translator
     @language = language
   end
 
-  def hi
+  def in
     case @language
     when "english"
       "Konnichiwa bitches."
@@ -15,7 +15,7 @@ class Hello::Translator
     when "dudebro"
       "Sup yo."
     else
-      "Sorry braj, I only do 'english' and 'japanese'."
+      "Sorry, I don't know that language."
     end
   end
 end
