@@ -9,7 +9,7 @@ class Hello::Translator
     when "english"
       "Hello my fine friend."
     when "japanese"
-      "こんにちはこのあま"
+      "こんにちは"
     when "pirate"
       "Ahoy thar matey!"
     when "dudebro"

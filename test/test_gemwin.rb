@@ -9,7 +9,7 @@ class GemwinTest < Test::Unit::TestCase
   end
 
   def test_japanese_hello
-    assert_equal "こんにちはこのあま",
+    assert_equal "こんにちは",
       Hello.in("japanese")
   end
 
